@@ -13,6 +13,6 @@ const StyledBoxedContent = styled.div`
   color: ${(p: BoxedContentProps) => setTheme(p.customStyle, 'color')};
   font-size: inherit;
   box-sizing: border-box;
-` as any
+`
 
 export default StyledBoxedContent
